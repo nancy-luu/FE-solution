@@ -1,0 +1,36 @@
+#root {
+  max-width: 1280px;
+  margin: 0 auto;
+  padding: 2rem;
+  text-align: center;
+}
+
+.search-container {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.residents-container {
+  display: flex;
+  flex-direction: column; /* Align items vertically */
+  justify-content: center;
+  align-items: center;
+}
+
+.residents-container ul{
+  min-width: 200px;
+  padding: 10px;
+  border: 1px solid rgba(255, 255, 255, 0.5);
+  border-radius: 5px;;
+  justify-content: center;
+  align-items: center;
+}
+
+
+
+.error-container p {
+  color: rgb(225, 85, 85);
+}
+
+
